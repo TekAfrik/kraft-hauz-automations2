@@ -1,37 +1,29 @@
+## Node / Next.js
 
-
-# ✅ 2. `.gitignore` for Node / Next.js (Correct Version)
-
-
-```gitignore
-# Dependencies
+# dependencies
 node_modules/
 
-# Next.js
+# next build output
 .next/
 out/
 
-# Production
+# production builds
+dist/
 build/
 
-# Environment variables
+# local env files
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
 
-# Logs
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# OS files
+# OS/editor
 .DS_Store
 Thumbs.db
-
-# Editor directories and files
 .vscode/
 .idea/
 *.swp
